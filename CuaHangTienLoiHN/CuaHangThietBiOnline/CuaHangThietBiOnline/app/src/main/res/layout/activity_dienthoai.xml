@@ -6,16 +6,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="Activity.DienthoaiActivity">
+
     <androidx.appcompat.widget.Toolbar
-        android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        app:title="Điện thoại"
         android:id="@+id/toolbardienthoai"
-        app:titleTextColor="#FFFEFE"
-        android:background="#F2989594"/>
+        android:layout_width="match_parent"
+        android:layout_height="213dp"
+        android:background="#F2989594"
+        app:title="Điện thoại"
+        app:titleTextColor="#FFFEFE" />
+
     <ListView
         android:id="@+id/listviewdienthoai"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent" />
 
 </LinearLayout>

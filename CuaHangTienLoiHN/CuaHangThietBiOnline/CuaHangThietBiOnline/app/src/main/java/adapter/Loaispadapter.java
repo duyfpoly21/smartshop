@@ -58,7 +58,7 @@ public class Loaispadapter extends BaseAdapter {
         viewhoder.txttenloaisp.setText(loaisp.getTenloaisp());
         Picasso.get().load(loaisp.getHinhanhloaisp())
                 .placeholder(R.drawable.loadding)
-                .error(R.drawable.error)
+                .error(R.drawable.bgrou)
                 .into(viewhoder.imgloaisp);
         return view;
     }
